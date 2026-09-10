@@ -92,12 +92,58 @@ npm run build
 ## Repository structure
 
 ```text
-backend/              FastAPI application and API tests
-frontend/             React dashboard and frontend tests
-ml/                   Frozen models, evaluation code, and artifacts
-paimana_dataset_v3/   Clean project snapshots and model-ready datasets
-docs/                 Architecture, model, API, and methodology notes
-docker-compose.yml    Local container orchestration
+paimana_sentinel_final_draft/
+├── backend/                       # FastAPI application
+│   ├── main.py                    # API entry point and route registration
+│   ├── config.py                  # Environment and model configuration
+│   ├── assistant_context.py       # Grounded assistant context builder
+│   ├── llm_service.py             # Hosted LLM and deterministic fallback
+│   ├── project_service.py         # Project data access
+│   ├── priority_service.py        # Intervention priority calculations
+│   ├── analytics_service.py       # Portfolio analytics
+│   ├── explanation_service.py     # Risk explanation generation
+│   ├── model_service.py           # Frozen model loading and inference
+│   ├── tests/                     # Backend API and service tests
+│   ├── requirements.txt           # Python dependencies
+│   └── Dockerfile                 # Backend container image
+├── frontend/                      # React and TypeScript dashboard
+│   ├── public/                    # Static browser assets
+│   ├── src/
+│   │   ├── api/                   # FastAPI client
+│   │   ├── components/            # Shared UI and map components
+│   │   ├── data/                  # Map and reference data
+│   │   ├── hooks/                 # Shared React hooks
+│   │   ├── pages/                 # Dashboard, projects, analytics, and alerts
+│   │   ├── test/                  # Frontend component and page tests
+│   │   ├── utils/                 # Formatting and reliability helpers
+│   │   ├── App.tsx                # Application routes
+│   │   ├── main.tsx               # Frontend entry point
+│   │   └── styles.css             # Global interface styles
+│   ├── package.json               # Frontend scripts and dependencies
+│   ├── vite.config.ts             # Vite configuration and API proxy
+│   ├── nginx.conf                 # Production web-server configuration
+│   └── Dockerfile                 # Frontend container image
+├── ml/                            # Machine-learning pipeline and artifacts
+│   ├── artifacts/
+│   │   ├── models/                # Frozen production model bundles
+│   │   ├── plots/                 # Evaluation charts
+│   │   ├── predictions/           # Evaluation prediction outputs
+│   │   └── reports/               # Model and data-quality reports
+│   ├── data/                      # Dataset loading and validation
+│   ├── evaluation/                # Metrics and model analysis
+│   ├── explainability/            # SHAP explanation utilities
+│   ├── features/                  # Feature processing and leakage checks
+│   ├── models/                    # Model wrappers and calibration
+│   └── tests/                     # ML pipeline tests
+├── paimana_dataset_v3/            # Clean snapshots and model-ready datasets
+├── paimana_dataset/               # Earlier dataset package and audit outputs
+├── raw_pdfs/                      # Source monitoring reports
+├── docs/                          # Architecture and methodology documents
+├── output/                        # Generated project reports
+├── .env.example                   # Assistant configuration template
+├── docker-compose.yml             # Backend and frontend orchestration
+├── build_paimana_dataset_v3.py    # Current dataset build script
+└── requirements_paimana.txt       # Dataset pipeline dependencies
 ```
 
 ## Documentation
