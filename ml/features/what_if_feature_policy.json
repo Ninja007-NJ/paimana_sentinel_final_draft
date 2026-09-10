@@ -1,0 +1,28 @@
+{
+  "features": {
+    "cost_revision_count_to_date": "OBSERVATIONAL_NOT_DIRECTLY_ACTIONABLE",
+    "current_cost_overrun_pct": "OBSERVATIONAL_NOT_DIRECTLY_ACTIONABLE",
+    "current_time_slip_months": "OBSERVATIONAL_NOT_DIRECTLY_ACTIONABLE",
+    "data_quality_score": "OBSERVATIONAL_NOT_DIRECTLY_ACTIONABLE",
+    "financial_physical_gap_pct": "OBSERVATIONAL_NOT_DIRECTLY_ACTIONABLE",
+    "ministry_department": "OBSERVATIONAL_NOT_DIRECTLY_ACTIONABLE",
+    "missing_core_fields_count": "OBSERVATIONAL_NOT_DIRECTLY_ACTIONABLE",
+    "months_to_target": "OBSERVATIONAL_NOT_DIRECTLY_ACTIONABLE",
+    "physical_progress_pct": "OBSERVATIONAL_NOT_DIRECTLY_ACTIONABLE",
+    "progress_delta_1m": "OBSERVATIONAL_NOT_DIRECTLY_ACTIONABLE",
+    "progress_delta_3m": "OBSERVATIONAL_NOT_DIRECTLY_ACTIONABLE",
+    "progress_delta_6m": "OBSERVATIONAL_NOT_DIRECTLY_ACTIONABLE",
+    "progress_velocity_3m": "POTENTIALLY_SCENARIO_ADJUSTABLE",
+    "project_age_months": "IMMUTABLE",
+    "schedule_pressure": "POTENTIALLY_SCENARIO_ADJUSTABLE",
+    "sector": "IMMUTABLE",
+    "spend_delta_1m_cr": "OBSERVATIONAL_NOT_DIRECTLY_ACTIONABLE",
+    "spend_delta_3m_cr": "OBSERVATIONAL_NOT_DIRECTLY_ACTIONABLE",
+    "spend_delta_6m_cr": "OBSERVATIONAL_NOT_DIRECTLY_ACTIONABLE",
+    "spend_ratio_pct": "OBSERVATIONAL_NOT_DIRECTLY_ACTIONABLE",
+    "stagnation_streak_months": "POTENTIALLY_SCENARIO_ADJUSTABLE",
+    "state": "IMMUTABLE",
+    "target_revision_count_to_date": "OBSERVATIONAL_NOT_DIRECTLY_ACTIONABLE"
+  },
+  "warning": "Scenario adjustments are predictive associations, not causal effects."
+}

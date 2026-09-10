@@ -1,0 +1,57 @@
+{
+  "delay_probability_3m": 0.024008,
+  "baseline_risk": 0.162902,
+  "risk_level": "LOW",
+  "threshold_profile": "BALANCED",
+  "top_risk_drivers": [
+    {
+      "factor": "Current Cost Overrun Pct",
+      "observed_value": "69.62586582939865"
+    },
+    {
+      "factor": "Current schedule slippage",
+      "observed_value": "57"
+    },
+    {
+      "factor": "Source data quality",
+      "observed_value": "92"
+    },
+    {
+      "factor": "Sector",
+      "observed_value": "CIVIL AVIATION"
+    },
+    {
+      "factor": "Current physical progress",
+      "observed_value": "100.0"
+    }
+  ],
+  "top_protective_drivers": [
+    {
+      "factor": "Time remaining to target",
+      "observed_value": "-19"
+    },
+    {
+      "factor": "Schedule pressure",
+      "observed_value": "0.0"
+    },
+    {
+      "factor": "Project Age Months",
+      "observed_value": "135.0"
+    },
+    {
+      "factor": "Ministry Department",
+      "observed_value": "__MISSING__"
+    },
+    {
+      "factor": "Spend Ratio Pct",
+      "observed_value": "98.7382193774462"
+    }
+  ],
+  "data_quality_score": 92.0,
+  "model_confidence": "HIGH",
+  "model_version": "delay_3m_v1",
+  "prediction_metadata": {
+    "dataset_version": "paimana_dataset_v1.0",
+    "selected_threshold": 0.22999999999999998
+  }
+}

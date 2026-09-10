@@ -1,0 +1,158 @@
+{
+  "calibration": "none",
+  "quality_experiment": {
+    "full_test": {
+      "accuracy": 0.7429234338747099,
+      "alerts_generated": 497,
+      "balanced_accuracy": 0.6551262116123605,
+      "brier": 0.1946374025979912,
+      "ece": 0.1580004486072721,
+      "f1": 0.49909584086799275,
+      "false_positive_rate": 0.1429495472186287,
+      "fn": 333,
+      "fp": 221,
+      "log_loss": 0.6286023105273261,
+      "pr_auc": 0.5526976957562444,
+      "precision": 0.5553319919517102,
+      "recall": 0.45320197044334976,
+      "roc_auc": 0.7918724522418148,
+      "specificity": 0.8570504527813713,
+      "threshold": 0.22999999999999998,
+      "tn": 1325,
+      "tp": 276
+    },
+    "high_quality_test": {
+      "accuracy": 0.7277588721438989,
+      "alerts_generated": 627,
+      "balanced_accuracy": 0.6762883694733878,
+      "brier": 0.17390674787541074,
+      "ece": 0.11405751138772245,
+      "f1": 0.5371900826446281,
+      "false_positive_rate": 0.20488466757123475,
+      "fn": 258,
+      "fp": 302,
+      "log_loss": 0.5145339224636165,
+      "pr_auc": 0.5873736424861897,
+      "precision": 0.518341307814992,
+      "recall": 0.5574614065180102,
+      "roc_auc": 0.8024651419341775,
+      "specificity": 0.7951153324287653,
+      "threshold": 0.22999999999999998,
+      "tn": 1172,
+      "tp": 325
+    },
+    "high_quality_test_rows": 2057,
+    "high_quality_train_rows": 5813,
+    "threshold": 80
+  },
+  "selected_model": "CatBoost_1",
+  "status": "YELLOW",
+  "test_metrics": {
+    "accuracy": 0.7429234338747099,
+    "alerts_generated": 497,
+    "balanced_accuracy": 0.6551262116123605,
+    "brier": 0.1946374025979912,
+    "ece": 0.1580004486072721,
+    "f1": 0.49909584086799275,
+    "false_positive_rate": 0.1429495472186287,
+    "fn": 333,
+    "fp": 221,
+    "log_loss": 0.6286023105273261,
+    "pr_auc": 0.5526976957562444,
+    "precision": 0.5553319919517102,
+    "recall": 0.45320197044334976,
+    "roc_auc": 0.7918724522418148,
+    "specificity": 0.8570504527813713,
+    "threshold": 0.22999999999999998,
+    "tn": 1325,
+    "tp": 276
+  },
+  "thresholds": {
+    "BALANCED": 0.22999999999999998,
+    "CONSERVATIVE": 0.255,
+    "CRITICAL": 0.75,
+    "EARLY_WARNING": 0.19
+  },
+  "top_global_drivers": [
+    {
+      "feature": "months_to_target",
+      "importance": 0.9592855674867276
+    },
+    {
+      "feature": "current_time_slip_months",
+      "importance": 0.37370627704211345
+    },
+    {
+      "feature": "schedule_pressure",
+      "importance": 0.3153557682215446
+    },
+    {
+      "feature": "state",
+      "importance": 0.2545907734943926
+    },
+    {
+      "feature": "physical_progress_pct",
+      "importance": 0.19450695452385414
+    },
+    {
+      "feature": "ministry_department",
+      "importance": 0.17862454151221505
+    },
+    {
+      "feature": "sector",
+      "importance": 0.12273466749868807
+    },
+    {
+      "feature": "spend_delta_1m_cr",
+      "importance": 0.12122407539340678
+    },
+    {
+      "feature": "spend_delta_3m_cr",
+      "importance": 0.11165753094273057
+    },
+    {
+      "feature": "project_age_months",
+      "importance": 0.10869776830433053
+    },
+    {
+      "feature": "current_cost_overrun_pct",
+      "importance": 0.08428065288924302
+    },
+    {
+      "feature": "target_revision_count_to_date",
+      "importance": 0.08292778436515295
+    },
+    {
+      "feature": "data_quality_score",
+      "importance": 0.08266942429643073
+    },
+    {
+      "feature": "spend_ratio_pct",
+      "importance": 0.07813221819724846
+    },
+    {
+      "feature": "financial_physical_gap_pct",
+      "importance": 0.07329075936955566
+    }
+  ],
+  "unseen_project_metrics": {
+    "accuracy": 0.7091988130563798,
+    "alerts_generated": 32,
+    "balanced_accuracy": 0.5584480600750938,
+    "brier": 0.24814052449017668,
+    "ece": 0.24282951061772093,
+    "f1": 0.26865671641791045,
+    "false_positive_rate": 0.059574468085106386,
+    "fn": 84,
+    "fp": 14,
+    "log_loss": 0.849679485841882,
+    "pr_auc": 0.5413599167509789,
+    "precision": 0.5625,
+    "recall": 0.17647058823529413,
+    "roc_auc": 0.7724655819774718,
+    "specificity": 0.9404255319148936,
+    "threshold": 0.22999999999999998,
+    "tn": 221,
+    "tp": 18
+  }
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "feature": "project_age_months",
+    "review_flag": false,
+    "value_shap_correlation": -0.3808397872052011
+  },
+  {
+    "feature": "months_to_target",
+    "review_flag": false,
+    "value_shap_correlation": -0.33759624751570677
+  },
+  {
+    "feature": "current_time_slip_months",
+    "review_flag": false,
+    "value_shap_correlation": 0.45699934829514577
+  },
+  {
+    "feature": "current_cost_overrun_pct",
+    "review_flag": false,
+    "value_shap_correlation": 0.32360216337537895
+  },
+  {
+    "feature": "spend_ratio_pct",
+    "review_flag": false,
+    "value_shap_correlation": 0.01641600122654963
+  },
+  {
+    "feature": "physical_progress_pct",
+    "review_flag": false,
+    "value_shap_correlation": 0.8559398574710654
+  },
+  {
+    "feature": "financial_physical_gap_pct",
+    "review_flag": false,
+    "value_shap_correlation": 0.03953511504564568
+  },
+  {
+    "feature": "progress_delta_1m",
+    "review_flag": false,
+    "value_shap_correlation": -0.24390868602349125
+  },
+  {
+    "feature": "progress_delta_3m",
+    "review_flag": false,
+    "value_shap_correlation": -0.3617726329057534
+  },
+  {
+    "feature": "progress_delta_6m",
+    "review_flag": false,
+    "value_shap_correlation": 0.6672760923513495
+  },
+  {
+    "feature": "spend_delta_1m_cr",
+    "review_flag": false,
+    "value_shap_correlation": -0.005392163318459121
+  },
+  {
+    "feature": "spend_delta_3m_cr",
+    "review_flag": false,
+    "value_shap_correlation": -0.09278661780727038
+  },
+  {
+    "feature": "spend_delta_6m_cr",
+    "review_flag": false,
+    "value_shap_correlation": -0.022894813398496108
+  },
+  {
+    "feature": "progress_velocity_3m",
+    "review_flag": false,
+    "value_shap_correlation": -0.2953197692562553
+  },
+  {
+    "feature": "schedule_pressure",
+    "review_flag": false,
+    "value_shap_correlation": 0.4704778527217305
+  },
+  {
+    "feature": "stagnation_streak_months",
+    "review_flag": true,
+    "value_shap_correlation": -0.5591558649680322
+  },
+  {
+    "feature": "target_revision_count_to_date",
+    "review_flag": false,
+    "value_shap_correlation": -0.08354213708099278
+  },
+  {
+    "feature": "cost_revision_count_to_date",
+    "review_flag": false,
+    "value_shap_correlation": -0.48837879957471636
+  },
+  {
+    "feature": "data_quality_score",
+    "review_flag": false,
+    "value_shap_correlation": -0.11173347325903546
+  },
+  {
+    "feature": "missing_core_fields_count",
+    "review_flag": false,
+    "value_shap_correlation": null
+  }
+]

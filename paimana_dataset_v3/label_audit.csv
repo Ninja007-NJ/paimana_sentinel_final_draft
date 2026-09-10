@@ -1,0 +1,5 @@
+﻿target_name,usable_rows,positive_rows,negative_rows,positive_rate_pct,rows_excluded_no_future_coverage,rows_excluded_missing_target,rows_excluded_target_semantics,rows_excluded_data_quality,rows_excluded_reporting_transition
+delay 3m,10368,1933,8435,18.6439,10043,17,939,0,1605
+delay 6m,3733,752,2981,20.1447,17320,0,42,0,1877
+cost 3m,11609,189,11420,1.628,10043,0,34,0,1286
+cost 6m,4114,133,3981,3.2329,17320,0,0,0,1538

@@ -1,0 +1,94 @@
+[
+  {
+    "feature": "months_to_target",
+    "importance": 0.9592855674867276
+  },
+  {
+    "feature": "current_time_slip_months",
+    "importance": 0.37370627704211345
+  },
+  {
+    "feature": "schedule_pressure",
+    "importance": 0.3153557682215446
+  },
+  {
+    "feature": "state",
+    "importance": 0.2545907734943926
+  },
+  {
+    "feature": "physical_progress_pct",
+    "importance": 0.19450695452385414
+  },
+  {
+    "feature": "ministry_department",
+    "importance": 0.17862454151221505
+  },
+  {
+    "feature": "sector",
+    "importance": 0.12273466749868807
+  },
+  {
+    "feature": "spend_delta_1m_cr",
+    "importance": 0.12122407539340678
+  },
+  {
+    "feature": "spend_delta_3m_cr",
+    "importance": 0.11165753094273057
+  },
+  {
+    "feature": "project_age_months",
+    "importance": 0.10869776830433053
+  },
+  {
+    "feature": "current_cost_overrun_pct",
+    "importance": 0.08428065288924302
+  },
+  {
+    "feature": "target_revision_count_to_date",
+    "importance": 0.08292778436515295
+  },
+  {
+    "feature": "data_quality_score",
+    "importance": 0.08266942429643073
+  },
+  {
+    "feature": "spend_ratio_pct",
+    "importance": 0.07813221819724846
+  },
+  {
+    "feature": "financial_physical_gap_pct",
+    "importance": 0.07329075936955566
+  },
+  {
+    "feature": "progress_delta_3m",
+    "importance": 0.06228561570012015
+  },
+  {
+    "feature": "progress_delta_1m",
+    "importance": 0.0541164995357099
+  },
+  {
+    "feature": "progress_velocity_3m",
+    "importance": 0.05038737020060448
+  },
+  {
+    "feature": "stagnation_streak_months",
+    "importance": 0.04842124596230241
+  },
+  {
+    "feature": "progress_delta_6m",
+    "importance": 0.04467961749809434
+  },
+  {
+    "feature": "spend_delta_6m_cr",
+    "importance": 0.02687622382693117
+  },
+  {
+    "feature": "cost_revision_count_to_date",
+    "importance": 0.022863884694268036
+  },
+  {
+    "feature": "missing_core_fields_count",
+    "importance": 0.0
+  }
+]

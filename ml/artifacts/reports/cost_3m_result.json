@@ -1,0 +1,257 @@
+{
+  "task": "cost_3m",
+  "target": "cost_escalation_next_3m",
+  "rows": 11609,
+  "projects": 2285,
+  "positives": 189,
+  "prevalence": 0.016280472047549316,
+  "test_prevalence": 0.008484381025838797,
+  "split": {
+    "train": [
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08"
+    ],
+    "selection": [
+      "2025-09",
+      "2025-10"
+    ],
+    "calibration": [
+      "2025-11"
+    ],
+    "test": [
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  "selected_model": "CatBoost_weighted",
+  "validation_pr_auc": 0.45232150401973154,
+  "calibration_method": "isotonic",
+  "operating_threshold": 0.39355823293172687,
+  "test_metrics": {
+    "pr_auc": 0.02089803956665674,
+    "roc_auc": 0.6071390686326509,
+    "precision": 0.034482758620689655,
+    "recall": 0.045454545454545456,
+    "f1": 0.0392156862745098,
+    "balanced_accuracy": 0.5172819207241611,
+    "specificity": 0.9891092959937767,
+    "accuracy": 0.9811029695333591,
+    "brier": 0.010560575140929158,
+    "log_loss": 0.14274731965125936,
+    "ece": 0.011784544599868824,
+    "tn": 2543,
+    "fp": 28,
+    "fn": 21,
+    "tp": 1,
+    "alerts_generated": 29,
+    "threshold": 0.39355823293172687,
+    "false_positive_rate": 0.010890704006223259
+  },
+  "pr_auc_lift": 2.4631189361973145,
+  "feature_importance": [
+    {
+      "feature": "current_cost_overrun_pct",
+      "importance": 9.755024518675711
+    },
+    {
+      "feature": "spend_ratio_pct",
+      "importance": 9.26626203656043
+    },
+    {
+      "feature": "peer_relative_progress_pct",
+      "importance": 7.740229790869141
+    },
+    {
+      "feature": "financial_physical_gap_pct",
+      "importance": 6.968724906021604
+    },
+    {
+      "feature": "project_age_months",
+      "importance": 6.75283126177977
+    },
+    {
+      "feature": "state",
+      "importance": 6.456018611178487
+    },
+    {
+      "feature": "ministry_department",
+      "importance": 5.7229639569295845
+    },
+    {
+      "feature": "physical_progress_pct",
+      "importance": 5.118633858202877
+    },
+    {
+      "feature": "sector",
+      "importance": 5.027953622147101
+    },
+    {
+      "feature": "current_time_slip_months",
+      "importance": 4.850894906056624
+    },
+    {
+      "feature": "required_progress_per_remaining_month",
+      "importance": 4.679397656429443
+    },
+    {
+      "feature": "months_to_target",
+      "importance": 4.575705954656446
+    }
+  ],
+  "status": "RED",
+  "candidate_validation_metrics": [
+    {
+      "model": "DummyClassifier",
+      "pr_auc": 0.026262626262626262,
+      "roc_auc": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "balanced_accuracy": 0.5,
+      "specificity": 1.0,
+      "accuracy": 0.9737373737373738,
+      "brier": 0.025650327611985275,
+      "log_loss": 0.12345687918714737,
+      "ece": 0.008799254943993737,
+      "tn": 1446,
+      "fp": 0,
+      "fn": 39,
+      "tp": 0,
+      "alerts_generated": 0,
+      "threshold": 0.5,
+      "false_positive_rate": 0.0
+    },
+    {
+      "model": "Logistic_unweighted",
+      "pr_auc": 0.13174312283658526,
+      "roc_auc": 0.8053161683867078,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "balanced_accuracy": 0.4996542185338866,
+      "specificity": 0.9993084370677732,
+      "accuracy": 0.9730639730639731,
+      "brier": 0.024873041365066618,
+      "log_loss": 0.11282173746348584,
+      "ece": 0.016627128187468816,
+      "tn": 1445,
+      "fp": 1,
+      "fn": 39,
+      "tp": 0,
+      "alerts_generated": 1,
+      "threshold": 0.5,
+      "false_positive_rate": 0.0006915629322268327
+    },
+    {
+      "model": "Logistic_balanced",
+      "pr_auc": 0.10690320897526275,
+      "roc_auc": 0.831613292194205,
+      "precision": 0.11483253588516747,
+      "recall": 0.6153846153846154,
+      "f1": 0.1935483870967742,
+      "balanced_accuracy": 0.7437227364613257,
+      "specificity": 0.872060857538036,
+      "accuracy": 0.8653198653198653,
+      "brier": 0.10739897155911116,
+      "log_loss": 0.4524956013838948,
+      "ece": 0.1480312736685936,
+      "tn": 1261,
+      "fp": 185,
+      "fn": 15,
+      "tp": 24,
+      "alerts_generated": 209,
+      "threshold": 0.5,
+      "false_positive_rate": 0.12793914246196403
+    },
+    {
+      "model": "CatBoost_unweighted",
+      "pr_auc": 0.33943951125180816,
+      "roc_auc": 0.8522537858637443,
+      "precision": 1.0,
+      "recall": 0.05128205128205128,
+      "f1": 0.0975609756097561,
+      "balanced_accuracy": 0.5256410256410257,
+      "specificity": 1.0,
+      "accuracy": 0.9750841750841751,
+      "brier": 0.022038308765264834,
+      "log_loss": 0.09667781780695957,
+      "ece": 0.013233391549953592,
+      "tn": 1446,
+      "fp": 0,
+      "fn": 37,
+      "tp": 2,
+      "alerts_generated": 2,
+      "threshold": 0.5,
+      "false_positive_rate": 0.0
+    },
+    {
+      "model": "CatBoost_weighted",
+      "pr_auc": 0.45232150401973154,
+      "roc_auc": 0.8703408163989077,
+      "precision": 0.6666666666666666,
+      "recall": 0.3076923076923077,
+      "f1": 0.42105263157894735,
+      "balanced_accuracy": 0.6517714650494734,
+      "specificity": 0.995850622406639,
+      "accuracy": 0.9777777777777777,
+      "brier": 0.019982538951470293,
+      "log_loss": 0.08810592013051673,
+      "ece": 0.019866281445171503,
+      "tn": 1440,
+      "fp": 6,
+      "fn": 27,
+      "tp": 12,
+      "alerts_generated": 18,
+      "threshold": 0.5,
+      "false_positive_rate": 0.004149377593360996
+    },
+    {
+      "model": "XGBoost_unweighted",
+      "pr_auc": 0.2641723494142853,
+      "roc_auc": 0.7988615810192574,
+      "precision": 1.0,
+      "recall": 0.02564102564102564,
+      "f1": 0.05,
+      "balanced_accuracy": 0.5128205128205128,
+      "specificity": 1.0,
+      "accuracy": 0.9744107744107744,
+      "brier": 0.02288132323454973,
+      "log_loss": 0.10854102168750385,
+      "ece": 0.014522094643276548,
+      "tn": 1446,
+      "fp": 0,
+      "fn": 38,
+      "tp": 1,
+      "alerts_generated": 1,
+      "threshold": 0.5,
+      "false_positive_rate": 0.0
+    },
+    {
+      "model": "XGBoost_weighted",
+      "pr_auc": 0.2972944919354628,
+      "roc_auc": 0.8545412632549563,
+      "precision": 0.3,
+      "recall": 0.3076923076923077,
+      "f1": 0.3037974683544304,
+      "balanced_accuracy": 0.6441642727949781,
+      "specificity": 0.9806362378976486,
+      "accuracy": 0.9629629629629629,
+      "brier": 0.03146052492535041,
+      "log_loss": 0.12327952943961806,
+      "ece": 0.04630421435190773,
+      "tn": 1418,
+      "fp": 28,
+      "fn": 27,
+      "tp": 12,
+      "alerts_generated": 40,
+      "threshold": 0.5,
+      "false_positive_rate": 0.019363762102351315
+    }
+  ]
+}

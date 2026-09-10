@@ -1,0 +1,21 @@
+{
+  "dataset_sha256": "98d13b9f77985a711f3eb51ff6b2641b407ab045e51bd440fe55aad60582e837",
+  "dataset_version": "paimana_dataset_v1.0",
+  "model_configuration": {
+    "depth": 5,
+    "iterations": 500,
+    "l2_leaf_reg": 5,
+    "learning_rate": 0.05
+  },
+  "packages": {
+    "catboost": "1.2.10",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scikit_learn": "1.7.2",
+    "shap": "0.52.0",
+    "xgboost": "3.4.1"
+  },
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.14 | packaged by Anaconda, Inc. | (main, Jun 17 2026, 20:04:52) [MSC v.1942 64 bit (AMD64)]",
+  "random_seed": 26103
+}

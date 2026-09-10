@@ -1,0 +1,20 @@
+﻿snapshot_month,format_family,parser_mode,primary_official_source,row_level_pdf_known,notes
+2025-01,OCMS legacy,legacy_table7,https://ipm.mospi.gov.in/Content/PDF/FlashReportJanuary.pdf,1,Direct official PDF
+2025-02,OCMS legacy,legacy_table7,https://ipm.mospi.gov.in/Content/PDF/FRFebruary2025.pdf,1,Direct official PDF
+2025-03,OCMS legacy,legacy_table7,https://ipm.mospi.gov.in/Content/pdf/FRMarch2025.pdf,1,Direct official PDF
+2025-04,OCMS legacy,legacy_table7,https://www.mospi.gov.in/sites/default/files/publication_reports/FRApril2025_0.pdf,1,Direct official PDF
+2025-05,OCMS legacy,legacy_table7,https://www.mospi.gov.in/sites/default/files/publication_reports/FR_May2025_0.pdf,1,Direct official PDF
+2025-06,OCMS legacy,legacy_table7,https://www.mospi.gov.in/sites/default/files/publication_reports/FR_JUNE_2025.pdf,1,Direct official PDF
+2025-07,PAIMANA transition,new_all_ongoing,https://ipm.mospi.gov.in/Content/ArchiveReport/flash/2025-26/FlashReport_July_2025.pdf,1,Direct official PDF
+2025-08,PAIMANA transition,new_all_ongoing,https://ipm.mospi.gov.in/Content/ArchiveReport/flash/2025-26/FlashReport_August_2025.pdf,1,Direct official PDF
+2025-09,PAIMANA,new_all_ongoing,https://ipm.mospi.gov.in/Content/ArchiveReport/flash/2025-26/FlashReport_September_2025.pdf,1,Direct official PDF
+2025-10,PAIMANA,new_all_ongoing,https://ipm.mospi.gov.in/Content/ArchiveReport/flash/2025-26/FlashReport_October_2025.pdf,1,Direct official PDF
+2025-11,PAIMANA,new_all_ongoing,https://ipm.mospi.gov.in/Home/ViewPdf/24?path=FlashReport_November_2025.pdf,1,Official ViewPdf
+2025-12,PAIMANA,new_all_ongoing,https://ipm.mospi.gov.in/Content/PDF/FlashReport_December_2025.pdf,1,Direct official PDF
+2026-01,PAIMANA,new_all_ongoing,https://ipm.mospi.gov.in/Home/ViewPdf/28?path=FlashReport_January_2026.pdf,1,Official ViewPdf
+2026-02,PAIMANA,new_all_ongoing,https://ipm.mospi.gov.in/Content/PDF/FlashReport_February_2026.pdf,1,Direct official PDF
+2026-03,PAIMANA,new_all_ongoing,https://ipm.mospi.gov.in/Content/PDF/FlashReport_March_2026.pdf,1,Direct official PDF
+2026-04,PAIMANA,new_all_ongoing,https://mospi.gov.in/uploads/publications_reports/publications_reports1779688125413_332125c5-1fb9-4d23-87ca-dd89fc14cd15_Flash_Report_April_2026.pdf,1,Direct official MoSPI PDF; Table 6 is All Ongoing Projects
+2026-05,PAIMANA,new_all_ongoing,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277758&lang=1,0,Official report confirmed; collector attempts portal link discovery
+2026-06,PAIMANA,new_all_ongoing,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2290413&lang=1,0,Official report confirmed; collector attempts portal link discovery
+2026-07,PAIMANA-PROJ / CRIP,new_all_ongoing,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2303115&lang=1,0,Official report confirmed; ~80% API-updated through CRIP per PIB; exact generated PDF URL may change

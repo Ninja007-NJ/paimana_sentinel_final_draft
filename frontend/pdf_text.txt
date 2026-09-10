@@ -1,0 +1,144 @@
+
+
+==================== PAGE 1 ====================
+SMART INDIA HACKATHON 2026
+AI-Powered Predictive Infrastructure Monitoring & Decision Support
+PAIMANA SENTINEL
+Problem Statement ID
+Problem Statement Title
+:
+:
+26103
+Use case on web-based integrated
+project-monitoring platform
+Smart Automation
+Software
+Deadlock
+Theme
+PS Category
+Team Name
+:
+:
+:
+
+==================== PAGE 2 ====================
+PAIMA N A SE NT I N E LT eam :  DEADLOCK
+How It Addresses the Problem Proposed Solution
+AI-powered predictive monitoring for PAIMAN A
+Analyzes OC MS and PAIMANA project data
+Performs data extraction, cleaning & project matching
+Generates longitudinal project features
+Predicts 3-month & 6-month schedule-delay risk
+Provides risk scores & intervention priorities
+O ffers SHAP-based explanations
+Enables peer benchmarking
+Provides early warnings, dashboard analytics & AI 
+Assistant
+Supports actionable, human-led decisions
+Existing Monitoring
+Project Data →  Current Status →  Reports
+PAIMANA Sentinel
+Historical
++ 
+Current Data 
+ML
+Prediction
+Risk
+Analysis
+Peer
+Benchmarking
+Early
+Warning
+Recommended
+Action→  →  →  →  →  
+Shifts descriptive monitoring to predictive monitoring
+dentifies future schedule delays early
+Uses historical trends for early warnings
+Helps MoSPI prioritise high-risk projects
+Uses peer benchmarking for project comparison
+Explains why projects are flagged
+Supports timely, evidence-based decisions
+Innovation & Uniqueness
+Dual-horizon 3-month & 6-month prediction
+Dynamic risk trajectory
+Peer benchmarking
+Explainable AI with SHAP
+Intervention Priority Score
+Grounded AI Assistant
+
+==================== PAGE 3 ====================
+TECHNICAL APPROACHTeam: DEADLOCK
+Methodology / Implementation Techology Stack
+
+==================== PAGE 4 ====================
+FEASIBILITY & VIABILITYTeam: DEADLOCK
+Feasibility
+PAIMANA already has regularly updated project information, making the idea practical without replacing the 
+existing monitoring system. The proposed solution can act as an additional intelligence layer to help officials 
+identify projects that may require early attention.
+Challenges & Risks
+Incomplete or inconsistent data, differences 
+across project sectors, missing real-world risk 
+factors, false warnings, and lack of trust in 
+automated predictions.
+Mitigation
+Data-quality checks, comparison with similar 
+projects, clear explanations for every warning, 
+gradual improvement using additional data, and 
+keeping final decisions with human officials.
+
+
+==================== PAGE 5 ====================
+IMPACT & BENEFITSTeam: DEADLOCK
+Potential Impact on the Target 
+Audience
+Enables proactive, data-driven infrastructure 
+monitoring for IPMD, MoSPI / PAIMANA, helping 
+identify high-risk projects early and prioritise 
+timely interventions.
+Cost Overrun
+Benefits of the Solution
+Social
+Faster identification of delayed projects
+Timely delivery of public infrastructure
+Improved transparency and accountability. 
+Economic
+Reduces project delays 
+Optimises public resources 
+Improves execution efficiency 
+Governance
+Shifts descriptive to predictive monitoring
+Enables early warnings and action
+Supports peer benchmarking & explainable 
+decision
+Technical
+Converts PAIMANA/OCMS data into actionable 
+insights
+Provides risk scoring & intervention prioritisation
+
+==================== PAGE 6 ====================
+RESEARCH & REFERENCESTeam: DEADLOCK
+Primary Source
+PAIMANA Project Monitoring:
+https://paimana-proj.mospi.gov.in/ProjectMonitoring
+
+PAIMANA Reports:
+https://paimana-proj.mospi.gov.in/ReportPage
+
+PAIMANA Public Dashboard:
+https://paimana-proj.mospi.gov.in/Home/
+PublicDashboardNew
+Technical Research Areas
+Predictive analytics
+Longitudinal project monitoring
+Schedule-delay prediction
+Machine learning for tabular data
+Explainable AI / SHAP
+Peer benchmarking
+Early-warning systems
+Decision-support systems
+Grounded AI assistants
+Final Statement
+“PAIMANA Sentinel transforms project reporting into 
+predictive, explainable and actionable infrastructure 
+monitoring.”

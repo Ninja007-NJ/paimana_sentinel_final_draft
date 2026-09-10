@@ -1,0 +1,254 @@
+{
+  "task": "delay_6m",
+  "target": "delay_event_next_6m",
+  "rows": 3733,
+  "projects": 739,
+  "positives": 752,
+  "prevalence": 0.2014465577283686,
+  "test_prevalence": 0.26702786377708976,
+  "split": {
+    "train": [
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06"
+    ],
+    "selection": [
+      "2025-07"
+    ],
+    "calibration": [
+      "2025-08"
+    ],
+    "test": [
+      "2025-09",
+      "2025-10"
+    ]
+  },
+  "selected_model": "CatBoost_weighted",
+  "validation_pr_auc": 0.6378701169096181,
+  "calibration_method": "isotonic",
+  "operating_threshold": 0.39736947791164656,
+  "test_metrics": {
+    "pr_auc": 0.7429610848437248,
+    "roc_auc": 0.88217712685368,
+    "precision": 0.6354916067146283,
+    "recall": 0.7681159420289855,
+    "f1": 0.6955380577427821,
+    "balanced_accuracy": 0.8038045391243132,
+    "specificity": 0.839493136219641,
+    "accuracy": 0.8204334365325078,
+    "brier": 0.11886560641882261,
+    "log_loss": 0.4953737544481346,
+    "ece": 0.06927915033667545,
+    "tn": 795,
+    "fp": 152,
+    "fn": 80,
+    "tp": 265,
+    "alerts_generated": 417,
+    "threshold": 0.39736947791164656,
+    "false_positive_rate": 0.16050686378035903
+  },
+  "pr_auc_lift": 2.7823354249799785,
+  "feature_importance": [
+    {
+      "feature": "months_to_target",
+      "importance": 31.540389411829693
+    },
+    {
+      "feature": "ministry_department",
+      "importance": 8.625343947952112
+    },
+    {
+      "feature": "physical_progress_pct",
+      "importance": 7.312554965738552
+    },
+    {
+      "feature": "sector",
+      "importance": 6.9158828449945515
+    },
+    {
+      "feature": "state",
+      "importance": 6.010832813947291
+    },
+    {
+      "feature": "required_progress_per_remaining_month",
+      "importance": 5.906630250139643
+    },
+    {
+      "feature": "current_time_slip_months",
+      "importance": 4.292097950137709
+    },
+    {
+      "feature": "spend_ratio_pct",
+      "importance": 4.019491905279744
+    },
+    {
+      "feature": "peer_relative_progress_pct",
+      "importance": 3.8135693372701303
+    },
+    {
+      "feature": "financial_physical_gap_pct",
+      "importance": 3.350619089946581
+    },
+    {
+      "feature": "current_cost_overrun_pct",
+      "importance": 2.7920296977748413
+    },
+    {
+      "feature": "project_age_months",
+      "importance": 2.717550204571394
+    }
+  ],
+  "status": "GREEN",
+  "candidate_validation_metrics": [
+    {
+      "model": "DummyClassifier",
+      "pr_auc": 0.19506172839506172,
+      "roc_auc": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "balanced_accuracy": 0.5,
+      "specificity": 1.0,
+      "accuracy": 0.8049382716049382,
+      "brier": 0.1597588701551405,
+      "log_loss": 0.5037397738923722,
+      "ece": 0.05240438573771905,
+      "tn": 326,
+      "fp": 0,
+      "fn": 79,
+      "tp": 0,
+      "alerts_generated": 0,
+      "threshold": 0.5,
+      "false_positive_rate": 0.0
+    },
+    {
+      "model": "Logistic_unweighted",
+      "pr_auc": 0.41116693531958215,
+      "roc_auc": 0.8190184049079754,
+      "precision": 0.49473684210526314,
+      "recall": 0.5949367088607594,
+      "f1": 0.5402298850574713,
+      "balanced_accuracy": 0.7238487225285393,
+      "specificity": 0.852760736196319,
+      "accuracy": 0.8024691358024691,
+      "brier": 0.15678344562974697,
+      "log_loss": 1.1861388416238834,
+      "ece": 0.1089999177349873,
+      "tn": 278,
+      "fp": 48,
+      "fn": 32,
+      "tp": 47,
+      "alerts_generated": 95,
+      "threshold": 0.5,
+      "false_positive_rate": 0.147239263803681
+    },
+    {
+      "model": "Logistic_balanced",
+      "pr_auc": 0.3996556388405962,
+      "roc_auc": 0.8132717247806166,
+      "precision": 0.3939393939393939,
+      "recall": 0.8227848101265823,
+      "f1": 0.5327868852459017,
+      "balanced_accuracy": 0.7580181719344568,
+      "specificity": 0.6932515337423313,
+      "accuracy": 0.7185185185185186,
+      "brier": 0.2134558891711303,
+      "log_loss": 1.4220338457856654,
+      "ece": 0.21659631929397327,
+      "tn": 226,
+      "fp": 100,
+      "fn": 14,
+      "tp": 65,
+      "alerts_generated": 165,
+      "threshold": 0.5,
+      "false_positive_rate": 0.3067484662576687
+    },
+    {
+      "model": "CatBoost_unweighted",
+      "pr_auc": 0.6126003905219479,
+      "roc_auc": 0.901413372679972,
+      "precision": 0.6274509803921569,
+      "recall": 0.810126582278481,
+      "f1": 0.7071823204419889,
+      "balanced_accuracy": 0.8467810825502835,
+      "specificity": 0.8834355828220859,
+      "accuracy": 0.8691358024691358,
+      "brier": 0.11320280970833353,
+      "log_loss": 0.40471412615419744,
+      "ece": 0.08693498655072433,
+      "tn": 288,
+      "fp": 38,
+      "fn": 15,
+      "tp": 64,
+      "alerts_generated": 102,
+      "threshold": 0.5,
+      "false_positive_rate": 0.1165644171779141
+    },
+    {
+      "model": "CatBoost_weighted",
+      "pr_auc": 0.6378701169096181,
+      "roc_auc": 0.9157412440785897,
+      "precision": 0.5932203389830508,
+      "recall": 0.8860759493670886,
+      "f1": 0.7106598984771574,
+      "balanced_accuracy": 0.8694183427817037,
+      "specificity": 0.852760736196319,
+      "accuracy": 0.8592592592592593,
+      "brier": 0.12282894013152305,
+      "log_loss": 0.4356093804600527,
+      "ece": 0.13999841725478518,
+      "tn": 278,
+      "fp": 48,
+      "fn": 9,
+      "tp": 70,
+      "alerts_generated": 118,
+      "threshold": 0.5,
+      "false_positive_rate": 0.147239263803681
+    },
+    {
+      "model": "XGBoost_unweighted",
+      "pr_auc": 0.5401626581840024,
+      "roc_auc": 0.8782325075716394,
+      "precision": 0.5652173913043478,
+      "recall": 0.8227848101265823,
+      "f1": 0.6701030927835051,
+      "balanced_accuracy": 0.8347052884988739,
+      "specificity": 0.8466257668711656,
+      "accuracy": 0.8419753086419753,
+      "brier": 0.128506566059248,
+      "log_loss": 0.5185169914690254,
+      "ece": 0.12398673003930369,
+      "tn": 276,
+      "fp": 50,
+      "fn": 14,
+      "tp": 65,
+      "alerts_generated": 115,
+      "threshold": 0.5,
+      "false_positive_rate": 0.15337423312883436
+    },
+    {
+      "model": "XGBoost_weighted",
+      "pr_auc": 0.5533793888030839,
+      "roc_auc": 0.8871243302011338,
+      "precision": 0.5307692307692308,
+      "recall": 0.8734177215189873,
+      "f1": 0.6602870813397129,
+      "balanced_accuracy": 0.8431505785509047,
+      "specificity": 0.8128834355828221,
+      "accuracy": 0.8246913580246914,
+      "brier": 0.1475539059790701,
+      "log_loss": 0.6310359514344126,
+      "ece": 0.1524843499432375,
+      "tn": 265,
+      "fp": 61,
+      "fn": 10,
+      "tp": 69,
+      "alerts_generated": 130,
+      "threshold": 0.5,
+      "false_positive_rate": 0.18711656441717792
+    }
+  ]
+}

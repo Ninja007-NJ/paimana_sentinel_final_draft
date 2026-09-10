@@ -1,0 +1,6 @@
+﻿snapshot_month,reporting_regime,declared_projects,parsed_rows,unique_serials,duplicate_serial_count,missing_serial_count,extraction_completeness_pct,unresolved_rows,audit_status,missing_serial_numbers,duplicate_serial_numbers,duplicate_project_code_count,duplicate_canonical_id_count,rows_dropped_by_deduplication
+2025-07,PAIMANA_TRANSITION,791,791,791,0,0,100.0,0,COMPLETE,,,0,0,0
+2025-08,PAIMANA_TRANSITION,800,800,800,0,0,100.0,0,COMPLETE,,,0,0,0
+2025-09,PAIMANA,794,794,794,0,0,100.0,0,COMPLETE,,,0,0,0
+2025-10,PAIMANA,820,820,820,0,0,100.0,0,COMPLETE,,,0,0,0
+2025-11,PAIMANA,823,823,823,0,0,100.0,0,COMPLETE,,,0,0,0

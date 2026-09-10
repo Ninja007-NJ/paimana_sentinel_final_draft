@@ -1,0 +1,346 @@
+[
+  {
+    "feature_name": "project_age_months",
+    "type": "numerical",
+    "description": "Elapsed months from approval/start through snapshot t.",
+    "allowed": true,
+    "leakage_reason": "",
+    "controllability": "IMMUTABLE"
+  },
+  {
+    "feature_name": "months_to_target",
+    "type": "numerical",
+    "description": "Months from snapshot t to the current reported target.",
+    "allowed": true,
+    "leakage_reason": "",
+    "controllability": "OBSERVATIONAL_NOT_DIRECTLY_ACTIONABLE"
+  },
+  {
+    "feature_name": "current_time_slip_months",
+    "type": "numerical",
+    "description": "Current target minus original target at t.",
+    "allowed": true,
+    "leakage_reason": "",
+    "controllability": "OBSERVATIONAL_NOT_DIRECTLY_ACTIONABLE"
+  },
+  {
+    "feature_name": "current_cost_overrun_pct",
+    "type": "numerical",
+    "description": "Current forecast cost over original cost at t.",
+    "allowed": true,
+    "leakage_reason": "",
+    "controllability": "OBSERVATIONAL_NOT_DIRECTLY_ACTIONABLE"
+  },
+  {
+    "feature_name": "spend_ratio_pct",
+    "type": "numerical",
+    "description": "Cumulative expenditure divided by current forecast cost at t.",
+    "allowed": true,
+    "leakage_reason": "",
+    "controllability": "OBSERVATIONAL_NOT_DIRECTLY_ACTIONABLE"
+  },
+  {
+    "feature_name": "physical_progress_pct",
+    "type": "numerical",
+    "description": "Reported physical progress at t.",
+    "allowed": true,
+    "leakage_reason": "",
+    "controllability": "OBSERVATIONAL_NOT_DIRECTLY_ACTIONABLE"
+  },
+  {
+    "feature_name": "financial_physical_gap_pct",
+    "type": "numerical",
+    "description": "Spend ratio minus physical progress at t.",
+    "allowed": true,
+    "leakage_reason": "",
+    "controllability": "OBSERVATIONAL_NOT_DIRECTLY_ACTIONABLE"
+  },
+  {
+    "feature_name": "progress_delta_1m",
+    "type": "numerical",
+    "description": "Physical-progress change from exactly t-1.",
+    "allowed": true,
+    "leakage_reason": "",
+    "controllability": "OBSERVATIONAL_NOT_DIRECTLY_ACTIONABLE"
+  },
+  {
+    "feature_name": "progress_delta_3m",
+    "type": "numerical",
+    "description": "Physical-progress change from exactly t-3.",
+    "allowed": true,
+    "leakage_reason": "",
+    "controllability": "OBSERVATIONAL_NOT_DIRECTLY_ACTIONABLE"
+  },
+  {
+    "feature_name": "progress_delta_6m",
+    "type": "numerical",
+    "description": "Physical-progress change from exactly t-6.",
+    "allowed": true,
+    "leakage_reason": "",
+    "controllability": "OBSERVATIONAL_NOT_DIRECTLY_ACTIONABLE"
+  },
+  {
+    "feature_name": "spend_delta_1m_cr",
+    "type": "numerical",
+    "description": "Expenditure change from exactly t-1.",
+    "allowed": true,
+    "leakage_reason": "",
+    "controllability": "OBSERVATIONAL_NOT_DIRECTLY_ACTIONABLE"
+  },
+  {
+    "feature_name": "spend_delta_3m_cr",
+    "type": "numerical",
+    "description": "Expenditure change from exactly t-3.",
+    "allowed": true,
+    "leakage_reason": "",
+    "controllability": "OBSERVATIONAL_NOT_DIRECTLY_ACTIONABLE"
+  },
+  {
+    "feature_name": "spend_delta_6m_cr",
+    "type": "numerical",
+    "description": "Expenditure change from exactly t-6.",
+    "allowed": true,
+    "leakage_reason": "",
+    "controllability": "OBSERVATIONAL_NOT_DIRECTLY_ACTIONABLE"
+  },
+  {
+    "feature_name": "progress_velocity_3m",
+    "type": "numerical",
+    "description": "Average monthly progress over the prior three months.",
+    "allowed": true,
+    "leakage_reason": "",
+    "controllability": "POTENTIALLY_SCENARIO_ADJUSTABLE"
+  },
+  {
+    "feature_name": "schedule_pressure",
+    "type": "numerical",
+    "description": "Remaining progress divided by remaining target months.",
+    "allowed": true,
+    "leakage_reason": "",
+    "controllability": "POTENTIALLY_SCENARIO_ADJUSTABLE"
+  },
+  {
+    "feature_name": "stagnation_streak_months",
+    "type": "numerical",
+    "description": "Consecutive low-change observations through t.",
+    "allowed": true,
+    "leakage_reason": "",
+    "controllability": "POTENTIALLY_SCENARIO_ADJUSTABLE"
+  },
+  {
+    "feature_name": "target_revision_count_to_date",
+    "type": "numerical",
+    "description": "Target revisions observed through t only.",
+    "allowed": true,
+    "leakage_reason": "",
+    "controllability": "OBSERVATIONAL_NOT_DIRECTLY_ACTIONABLE"
+  },
+  {
+    "feature_name": "cost_revision_count_to_date",
+    "type": "numerical",
+    "description": "Cost revisions observed through t only.",
+    "allowed": true,
+    "leakage_reason": "",
+    "controllability": "OBSERVATIONAL_NOT_DIRECTLY_ACTIONABLE"
+  },
+  {
+    "feature_name": "data_quality_score",
+    "type": "numerical",
+    "description": "Contemporaneous source-quality score.",
+    "allowed": true,
+    "leakage_reason": "",
+    "controllability": "OBSERVATIONAL_NOT_DIRECTLY_ACTIONABLE"
+  },
+  {
+    "feature_name": "missing_core_fields_count",
+    "type": "numerical",
+    "description": "Missing core values at t.",
+    "allowed": true,
+    "leakage_reason": "",
+    "controllability": "OBSERVATIONAL_NOT_DIRECTLY_ACTIONABLE"
+  },
+  {
+    "feature_name": "sector",
+    "type": "categorical",
+    "description": "Normalized project sector.",
+    "allowed": true,
+    "leakage_reason": "",
+    "controllability": "IMMUTABLE"
+  },
+  {
+    "feature_name": "state",
+    "type": "categorical",
+    "description": "Normalized state/territory.",
+    "allowed": true,
+    "leakage_reason": "",
+    "controllability": "IMMUTABLE"
+  },
+  {
+    "feature_name": "ministry_department",
+    "type": "categorical",
+    "description": "Normalized responsible ministry/department.",
+    "allowed": true,
+    "leakage_reason": "",
+    "controllability": "OBSERVATIONAL_NOT_DIRECTLY_ACTIONABLE"
+  },
+  {
+    "feature_name": "canonical_project_id",
+    "type": "excluded",
+    "description": "",
+    "allowed": false,
+    "leakage_reason": "Direct identifier; grouping/evaluation only.",
+    "controllability": "NOT_APPLICABLE"
+  },
+  {
+    "feature_name": "snapshot_month",
+    "type": "excluded",
+    "description": "",
+    "allowed": false,
+    "leakage_reason": "Temporal split/evaluation only.",
+    "controllability": "NOT_APPLICABLE"
+  },
+  {
+    "feature_name": "delay_event_next_3m",
+    "type": "excluded",
+    "description": "",
+    "allowed": false,
+    "leakage_reason": "Target or future outcome leakage.",
+    "controllability": "NOT_APPLICABLE"
+  },
+  {
+    "feature_name": "delay_event_next_6m",
+    "type": "excluded",
+    "description": "",
+    "allowed": false,
+    "leakage_reason": "Target or future outcome leakage.",
+    "controllability": "NOT_APPLICABLE"
+  },
+  {
+    "feature_name": "cost_escalation_next_3m",
+    "type": "excluded",
+    "description": "",
+    "allowed": false,
+    "leakage_reason": "Target or future outcome leakage.",
+    "controllability": "NOT_APPLICABLE"
+  },
+  {
+    "feature_name": "cost_escalation_next_6m",
+    "type": "excluded",
+    "description": "",
+    "allowed": false,
+    "leakage_reason": "Target or future outcome leakage.",
+    "controllability": "NOT_APPLICABLE"
+  },
+  {
+    "feature_name": "future_coverage_3m",
+    "type": "excluded",
+    "description": "",
+    "allowed": false,
+    "leakage_reason": "Future availability leakage.",
+    "controllability": "NOT_APPLICABLE"
+  },
+  {
+    "feature_name": "future_coverage_6m",
+    "type": "excluded",
+    "description": "",
+    "allowed": false,
+    "leakage_reason": "Future availability leakage.",
+    "controllability": "NOT_APPLICABLE"
+  },
+  {
+    "feature_name": "valid_delay_target_3m",
+    "type": "excluded",
+    "description": "",
+    "allowed": false,
+    "leakage_reason": "Label validity and future coverage leakage.",
+    "controllability": "NOT_APPLICABLE"
+  },
+  {
+    "feature_name": "valid_delay_target_6m",
+    "type": "excluded",
+    "description": "",
+    "allowed": false,
+    "leakage_reason": "Label validity and future coverage leakage.",
+    "controllability": "NOT_APPLICABLE"
+  },
+  {
+    "feature_name": "valid_cost_target_3m",
+    "type": "excluded",
+    "description": "",
+    "allowed": false,
+    "leakage_reason": "Label validity and future coverage leakage.",
+    "controllability": "NOT_APPLICABLE"
+  },
+  {
+    "feature_name": "valid_cost_target_6m",
+    "type": "excluded",
+    "description": "",
+    "allowed": false,
+    "leakage_reason": "Label validity and future coverage leakage.",
+    "controllability": "NOT_APPLICABLE"
+  },
+  {
+    "feature_name": "original_cost_cr",
+    "type": "excluded",
+    "description": "",
+    "allowed": false,
+    "leakage_reason": "Joined only to define evaluation cost buckets; not registered as a Model V1 predictor.",
+    "controllability": "NOT_APPLICABLE"
+  },
+  {
+    "feature_name": "current_forecast_cost_cr",
+    "type": "excluded",
+    "description": "",
+    "allowed": false,
+    "leakage_reason": "Joined only to define evaluation cost buckets; not registered as a Model V1 predictor.",
+    "controllability": "NOT_APPLICABLE"
+  },
+  {
+    "feature_name": "quality_flags",
+    "type": "excluded",
+    "description": "",
+    "allowed": false,
+    "leakage_reason": "Provenance/evaluation diagnostic; excluded from Model V1 predictors.",
+    "controllability": "NOT_APPLICABLE"
+  },
+  {
+    "feature_name": "reporting_regime",
+    "type": "excluded",
+    "description": "",
+    "allowed": false,
+    "leakage_reason": "Regime diagnostic only; explicitly excluded from Model V1.",
+    "controllability": "NOT_APPLICABLE"
+  },
+  {
+    "feature_name": "current_target_source",
+    "type": "excluded",
+    "description": "",
+    "allowed": false,
+    "leakage_reason": "Provenance/evaluation diagnostic; excluded from Model V1 predictors.",
+    "controllability": "NOT_APPLICABLE"
+  },
+  {
+    "feature_name": "current_cost_source",
+    "type": "excluded",
+    "description": "",
+    "allowed": false,
+    "leakage_reason": "Provenance/evaluation diagnostic; excluded from Model V1 predictors.",
+    "controllability": "NOT_APPLICABLE"
+  },
+  {
+    "feature_name": "identity_source",
+    "type": "excluded",
+    "description": "",
+    "allowed": false,
+    "leakage_reason": "Provenance/evaluation diagnostic; excluded from Model V1 predictors.",
+    "controllability": "NOT_APPLICABLE"
+  },
+  {
+    "feature_name": "collision_flag",
+    "type": "excluded",
+    "description": "",
+    "allowed": false,
+    "leakage_reason": "Provenance/evaluation diagnostic; excluded from Model V1 predictors.",
+    "controllability": "NOT_APPLICABLE"
+  }
+]

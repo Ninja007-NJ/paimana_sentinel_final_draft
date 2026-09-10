@@ -1,0 +1,8 @@
+{
+  "dataset_version": "paimana_dataset_v1.0",
+  "raw_snapshots_clean.csv": "363cbc3b6e67fbfb14218964da4db300b9ffe930f15c4c4f61c02acf7a42a8ca",
+  "training_master.csv": "cbab0f5fd86e99d1418b1430725a73a9d4f1d561cd02400e0c55f8edbdbeeebb",
+  "training_delay_3m.csv": "98d13b9f77985a711f3eb51ff6b2641b407ab045e51bd440fe55aad60582e837",
+  "delay_3m_v1_1_bundle.joblib": "52e8cbf82c9d791e49749e54677eeffbc9b501d22654edece2fba3207e00e852",
+  "delay_6m_model_bundle_v1.joblib": "a38ee0efd3399197346fb8d19661edc434cb642acc87363f1ea400488a50513e"
+}

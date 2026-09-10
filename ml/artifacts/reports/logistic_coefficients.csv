@@ -1,0 +1,160 @@
+feature,coefficient,odds_ratio,direction
+categorical__state_Odisha,1.0118551062058831,2.750699123803317,increases estimated delay odds
+numeric__physical_progress_pct,0.7899845375654987,2.2033623566464153,increases estimated delay odds
+categorical__state_Mizoram,0.7667081773623708,2.152668375226817,increases estimated delay odds
+categorical__state_Tamil Nadu,0.619996190005714,1.8589209593546168,increases estimated delay odds
+categorical__state_Gujarat,0.5592697496084652,1.7493945376904483,increases estimated delay odds
+numeric__spend_delta_3m_cr,-0.5424489891356012,0.5813228543396928,reduces estimated delay odds
+categorical__sector_Electricity Generation,0.537051777436381,1.7109551424905691,increases estimated delay odds
+categorical__state_Uttar Pradesh,0.5196144335269212,1.6813792412406847,increases estimated delay odds
+categorical__state_Kerala,-0.5062428649923892,0.6027559654031532,reduces estimated delay odds
+categorical__sector_WATER RESOURCES,0.4809421038135597,1.6175976294566397,increases estimated delay odds
+categorical__state_Maharashtra,-0.448979275416094,0.6382793266301569,reduces estimated delay odds
+categorical__ministry_department_Ministry of Steel,-0.44667091968153383,0.639754404220946,reduces estimated delay odds
+categorical__state_Rajasthan,0.4275995855723295,1.533571893698957,increases estimated delay odds
+categorical__state_Himachal Pradesh,-0.4176666590062968,0.658581724125692,reduces estimated delay odds
+numeric__schedule_pressure,0.40983069275023026,1.5065626915329575,increases estimated delay odds
+numeric__spend_delta_6m_cr,-0.3761334124015356,0.6865107378862506,reduces estimated delay odds
+categorical__state_Bihar,0.3666246738538344,1.4428562757896224,increases estimated delay odds
+categorical__state_Nagaland,-0.3634268785944134,0.695289565907788,reduces estimated delay odds
+categorical__state_Andhra Pradesh,-0.3607763605376748,0.6971348879062073,reduces estimated delay odds
+"categorical__state_Multi-States (Bihar, Jharkhand)",-0.35182087089390324,0.7034061111997578,reduces estimated delay odds
+categorical__state_Telangana,-0.3450358210973869,0.7081949846919184,reduces estimated delay odds
+categorical__ministry_department_Ministry of Civil Aviation,0.328931786595004,1.389483070983401,increases estimated delay odds
+categorical__ministry_department_Ministry of Road Transport & Highways,0.31734472786274687,1.3734759657589588,increases estimated delay odds
+"categorical__state_Multi-States (Delhi, Rajasthan)",0.30485052094379855,1.3564222311366068,increases estimated delay odds
+numeric__stagnation_streak_months,-0.3021472131372927,0.7392292326244457,reduces estimated delay odds
+"categorical__state_Multi-States (Dadra & Nagar Haveli and Daman & Diu, Gujarat, Maharashtra)",0.2947388154622378,1.3427756006574079,increases estimated delay odds
+categorical__sector_Coal,-0.288156693243351,0.7496441188672955,reduces estimated delay odds
+categorical__sector_Steel,-0.28171213698127134,0.7544908432873539,reduces estimated delay odds
+categorical__state_Tripura,0.27465044033664315,1.3160705492734752,increases estimated delay odds
+numeric__missing_core_fields_count,-0.26596105936075265,0.7664689737116996,reduces estimated delay odds
+categorical__ministry_department_Ministry of Power,0.2568624970812384,1.2928673415036096,increases estimated delay odds
+numeric__target_revision_count_to_date,0.24421257749432976,1.2766156814096596,increases estimated delay odds
+categorical__ministry_department_Ministry of Mines,-0.23614316305129052,0.7896676146148238,reduces estimated delay odds
+"categorical__state_Multi-States (Assam, Manipur, Meghalaya, Mizoram, Nagaland, Tripura)",0.2343438026744922,1.2640790112539313,increases estimated delay odds
+categorical__ministry_department_Ministry of Petroleum & Natural Gas,-0.23084269222284715,0.7938643372476322,reduces estimated delay odds
+categorical__sector_Energy Storage,-0.23084269222284715,0.7938643372476322,reduces estimated delay odds
+categorical__state_PAN India,-0.2185909551253718,0.8036503799992539,reduces estimated delay odds
+categorical__state_Uttarakhand,-0.21713503642125037,0.8048212817811417,reduces estimated delay odds
+categorical__sector_POWER,0.2094027019036318,1.2329414064227777,increases estimated delay odds
+categorical__state_Arunachal Pradesh,-0.20638212237505082,0.8135221518642886,reduces estimated delay odds
+categorical__state_Jammu and Kashmir,0.2062187873478018,1.2290220690609819,increases estimated delay odds
+categorical__state_infrequent_sklearn,-0.20500480149411662,0.8146434048965082,reduces estimated delay odds
+categorical__ministry_department_Ministry of Railways,-0.20156188309099013,0.8174529894771134,reduces estimated delay odds
+numeric__data_quality_score,0.20128545110589405,1.2229738212324373,increases estimated delay odds
+categorical__ministry_department_Department of Telecommunications,0.19285517728717097,1.2127071532612748,increases estimated delay odds
+categorical__state_Jharkhand,-0.18956079928704184,0.8273224147553336,reduces estimated delay odds
+categorical__sector_Urban Public Transport,-0.1846949802519976,0.8313578257370251,reduces estimated delay odds
+"categorical__state_Multi-States (Arunachal Pradesh, Assam)",0.18266082431116384,1.2004071900899307,increases estimated delay odds
+"categorical__state_Multi-States (Haryana, Rajasthan)",0.1798104430281958,1.196990443731621,increases estimated delay odds
+categorical__sector_DEPARTMENT OF HIGHER EDUCATION,-0.17559653949558196,0.838956400836102,reduces estimated delay odds
+categorical__sector_ROAD TRANSPORT AND HIGHWAYS,-0.17449358410073382,0.8398822428117895,reduces estimated delay odds
+categorical__sector_ROAD TRANSPORT AND,0.17420788414411506,1.1903029852195066,increases estimated delay odds
+categorical__state_Karnataka,0.17209288677957757,1.1877881579067822,increases estimated delay odds
+categorical__ministry_department_Ministry of Health & Family Welfare,0.17080569447053198,1.1862602297048284,increases estimated delay odds
+"categorical__state_Multi-States (Assam, West Bengal)",0.16853327442041988,1.1835676087158584,increases estimated delay odds
+"categorical__state_Multi-States (Arunachal Pradesh, Sikkim)",-0.16772737018718403,0.8455843347615408,reduces estimated delay odds
+categorical__sector_COAL,0.16373710839942038,1.1779046131564042,increases estimated delay odds
+categorical__sector_HIGHER EDUCATION,-0.16031672063474567,0.8518739401800706,reduces estimated delay odds
+categorical__sector_Healthcare,0.15863958194852454,1.1719154910571936,increases estimated delay odds
+"categorical__state_Multi-States (Karnataka, Telangana)",-0.15788131463440586,0.8539511274560113,reduces estimated delay odds
+"categorical__state_Multi-States (Jharkhand, West Bengal)",-0.15518032415426136,0.8562607590641411,reduces estimated delay odds
+"categorical__state_Multi-States (Andhra Pradesh, Karnataka)",-0.15141034690219574,0.8594949352023464,reduces estimated delay odds
+categorical__sector_Real Estate,-0.1435054077110358,0.8663161153873601,reduces estimated delay odds
+categorical__state_Ladakh,-0.13987974854365082,0.869462783278593,reduces estimated delay odds
+categorical__sector_URBAN DEVELOPMENT,-0.13946296260338586,0.8698252386701559,reduces estimated delay odds
+categorical__sector_RAILWAYS,0.13726274152063928,1.1471295074800745,increases estimated delay odds
+numeric__current_time_slip_months,0.135530606766418,1.1451442444604756,increases estimated delay odds
+categorical__sector_HEALTH AND FAMILY WELFARE,-0.13305363115355204,0.8754181411650147,reduces estimated delay odds
+categorical__state_Punjab,-0.13295357078331838,0.8755057402108524,reduces estimated delay odds
+categorical__state_Madhya Pradesh,-0.13249621084075872,0.8759062530481884,reduces estimated delay odds
+categorical__sector_Railways,0.1300453210017244,1.138879997337337,increases estimated delay odds
+categorical__state_Meghalaya,-0.12458283461521094,0.8828651265443421,reduces estimated delay odds
+"categorical__state_Multi-States (Uttar Pradesh, Uttarakhand)",0.12354542224640659,1.1315013987101923,increases estimated delay odds
+"categorical__state_Multi-States (Delhi, Uttar Pradesh)",-0.12323005946249908,0.8840602527369792,reduces estimated delay odds
+"categorical__state_Multi-States (Chhattisgarh, Maharashtra)",0.12163132119642912,1.1293376621606923,increases estimated delay odds
+categorical__sector_Telecommunication,0.1213391324081,1.1290077305610757,increases estimated delay odds
+"categorical__ministry_department_Ministry of Ports, Shipping and Waterways",-0.11802719456318263,0.8886718852422765,reduces estimated delay odds
+"categorical__state_Multi-States (Odisha, West Bengal)",-0.11582250657698726,0.8906332908205216,reduces estimated delay odds
+categorical__state_Haryana,-0.1136255396325133,0.8925921336887281,reduces estimated delay odds
+"categorical__state_Multi-States (Jharkhand, Odisha)",-0.11264025251446519,0.8934720266221263,reduces estimated delay odds
+categorical__sector_STEEL,-0.11060222381748261,0.8952948050587961,reduces estimated delay odds
+categorical__state_CHHATTISGARH,0.11055017613141295,1.1168923889854567,increases estimated delay odds
+"categorical__state_Multi-States (Karnataka, Tamil Nadu)",-0.10718691759692439,0.8983577384261868,reduces estimated delay odds
+categorical__sector_FINANCE,-0.10629281858907066,0.8991613183752963,reduces estimated delay odds
+"categorical__state_Multi-States (Haryana, Punjab)",-0.10459181925163233,0.9006920927360946,reduces estimated delay odds
+"categorical__state_Multi-States (Haryana, Uttar Pradesh)",0.09456782408529586,1.0991837117346868,increases estimated delay odds
+numeric__months_to_target,0.09414367376380753,1.0987175914694978,increases estimated delay odds
+categorical__state_Manipur,-0.09370487821639825,0.9105514461584298,reduces estimated delay odds
+"categorical__state_Multi-States (Madhya Pradesh, Rajasthan)",-0.09304954188206295,0.9111483591734096,reduces estimated delay odds
+"categorical__state_Multi-States (Andhra Pradesh, Telangana)",0.09246954546587288,1.0968797360902764,increases estimated delay odds
+"categorical__state_Multi-States (Goa, Karnataka)",-0.09133047429220251,0.9127160318688157,reduces estimated delay odds
+"categorical__state_Multi-States (Sikkim, West Bengal)",-0.09011892388363026,0.9138225034878629,reduces estimated delay odds
+categorical__state_WEST BENGAL,-0.08655828439660752,0.9170820956503944,reduces estimated delay odds
+"categorical__state_Multi-States (Gujarat, Madhya Pradesh)",-0.08592432267785682,0.9176636749220073,reduces estimated delay odds
+"categorical__state_Multi-States (Rajasthan, Uttar Pradesh)",-0.08403302149285641,0.9194008956037467,reduces estimated delay odds
+"categorical__state_Multi-States (Madhya Pradesh, Uttar Pradesh)",-0.08170465999969909,0.9215440873401661,reduces estimated delay odds
+categorical__ministry_department_Ministry of Housing & Urban Affairs,-0.07778969547666524,0.9251589712024589,reduces estimated delay odds
+categorical__sector_Inland Waterways,-0.07649287259862925,0.9263595168013825,reduces estimated delay odds
+"categorical__state_Multi-States (Bihar, Jharkhand, Uttar Pradesh, West Bengal)",-0.07649287259862925,0.9263595168013825,reduces estimated delay odds
+"categorical__state_Multi-States (Assam, Nagaland)",-0.076150739168571,0.9266765095841548,reduces estimated delay odds
+categorical__sector_Education,0.07579506409223487,1.0787414786386835,increases estimated delay odds
+categorical__ministry_department_Department of Higher Education,0.07579506409223487,1.0787414786386835,increases estimated delay odds
+"categorical__state_Multi-States (Karnataka, Maharashtra)",-0.07510516991788388,0.9276459207528501,reduces estimated delay odds
+categorical__ministry_department_Ministry of Coal,-0.07319478957307136,0.929419771111752,reduces estimated delay odds
+categorical__state_ANDAMAN AND,-0.07166515433874374,0.9308425322164704,reduces estimated delay odds
+"categorical__ministry_department_Department of Water Resources, River Development & GR",-0.07151604487907107,0.9309813399920085,reduces estimated delay odds
+numeric__progress_delta_6m,0.07050372287055948,1.0730485642441856,increases estimated delay odds
+"categorical__sector_Tourism, Hospitality & Wellness",-0.06993426228668144,0.9324551153582705,reduces estimated delay odds
+categorical__state_Assam,0.06866496694327681,1.0710773027262264,increases estimated delay odds
+"categorical__state_Multi-States (Himachal Pradesh, Punjab)",0.0683565377367728,1.0707470021434338,increases estimated delay odds
+numeric__project_age_months,-0.06738115047994755,0.9348388191588759,reduces estimated delay odds
+numeric__progress_delta_1m,-0.06562323583654867,0.9364836313043959,reduces estimated delay odds
+"categorical__state_Multi-States (Maharashtra, Telangana)",-0.06324248720651451,0.9387158195118516,reduces estimated delay odds
+categorical__sector_DPIIT,0.05730222152649316,1.058975807323093,increases estimated delay odds
+"categorical__state_Multi-States (Assam, Bihar, Jharkhand, Odisha, West Bengal)",-0.05730134791388832,0.9443094607995012,reduces estimated delay odds
+categorical__state_Chhattisgarh,0.05682966648095116,1.0584755011826412,increases estimated delay odds
+"categorical__state_Multi-States (Jharkhand, Uttar Pradesh)",-0.05295147847237926,0.9484260304456907,reduces estimated delay odds
+"categorical__state_Multi-States (Karnataka, Kerala, Tamil Nadu)",-0.05266565165251605,0.9486971547873069,reduces estimated delay odds
+"categorical__state_Multi-States (Andhra Pradesh, Tamil Nadu)",-0.052183052327464965,0.9491551058884431,reduces estimated delay odds
+categorical__sector_HOME AFFAIRS,-0.051812204025601855,0.9495071637236568,reduces estimated delay odds
+categorical__state_Delhi,0.05135768069019587,1.052699356184724,increases estimated delay odds
+numeric__cost_revision_count_to_date,-0.050583606322898975,0.9506744429551695,reduces estimated delay odds
+numeric__spend_ratio_pct,0.049074063781820366,1.050298136911482,increases estimated delay odds
+"categorical__state_Multi-States (Jammu and Kashmir, Punjab)",-0.04421830348265169,0.9567450738922292,reduces estimated delay odds
+"categorical__state_Multi-States (Kerala, Tamil Nadu)",-0.04415079847619982,0.9568096611545722,reduces estimated delay odds
+categorical__state_West Bengal,0.04384858833434382,1.0448241443472719,increases estimated delay odds
+categorical__sector_infrequent_sklearn,-0.043587412349361344,0.9573488663197844,reduces estimated delay odds
+"categorical__state_Multi-States (Chhattisgarh, Odisha)",-0.039634563124122876,0.9611406112050436,reduces estimated delay odds
+categorical__sector_ROAD TRANSPORT,-0.03765395816188205,0.9630461374935029,reduces estimated delay odds
+"categorical__state_Multi-States (Gujarat, Haryana, Maharashtra, Rajasthan, Uttar Pradesh)",-0.03756048835916785,0.9631361574329865,reduces estimated delay odds
+"categorical__state_Multi-States (Haryana, Punjab, Rajasthan)",-0.03687541875772996,0.9637961987978128,reduces estimated delay odds
+categorical__state_LADAKH,-0.03635654056202329,0.9642964213965506,reduces estimated delay odds
+"categorical__state_Multi-States (Haryana, Himachal Pradesh)",-0.03376985825760321,0.9667939786870358,reduces estimated delay odds
+"categorical__state_Multi-States (Gujarat, Maharashtra)",0.032687014674961615,1.0332271037077656,increases estimated delay odds
+"categorical__state_Multi-States (Arunachal Pradesh, Assam, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, Tripura, West Bengal)",-0.03195928736277537,0.9685460133389933,reduces estimated delay odds
+"categorical__state_Multi-States (Madhya Pradesh, Rajasthan, Uttar Pradesh)",-0.0307429081423903,0.9697248493940981,reduces estimated delay odds
+numeric__progress_velocity_3m,-0.029790994096303994,0.9706483835919251,reduces estimated delay odds
+numeric__progress_delta_3m,-0.029790994096303643,0.9706483835919255,reduces estimated delay odds
+categorical__sector_Shipping,0.02894659504325826,1.0293696195671733,increases estimated delay odds
+numeric__financial_physical_gap_pct,-0.024485793425419927,0.9758115517595215,reduces estimated delay odds
+"categorical__state_Multi-States (Punjab, Rajasthan)",-0.02390273065754898,0.9763806770455697,reduces estimated delay odds
+"categorical__state_Multi-States (Uttar Pradesh, West Bengal)",-0.023293130799487565,0.9769760600219619,reduces estimated delay odds
+categorical__sector_CIVIL AVIATION,-0.02224094671389494,0.9780045596749185,reduces estimated delay odds
+"categorical__state_Multi-States (Bihar, Uttar Pradesh)",0.020978543796136284,1.0212001403240663,increases estimated delay odds
+"categorical__state_Multi-States (Gujarat, Haryana, Rajasthan)",0.02079076250720763,1.021008396049019,increases estimated delay odds
+categorical__state_Offshore,0.020104347558096734,1.0203078010997346,increases estimated delay odds
+numeric__spend_delta_1m_cr,-0.01905776890255786,0.9811226822250237,reduces estimated delay odds
+"categorical__state_Multi-States (Gujarat, Rajasthan)",-0.018661528739418044,0.9815115194680676,reduces estimated delay odds
+"categorical__state_Multi-States (Puducherry, Tamil Nadu)",0.01754883691802201,1.0177037224504113,increases estimated delay odds
+"categorical__state_Multi-States (Andhra Pradesh, Chhattisgarh, Odisha)",-0.015638808393738126,0.9844828427848299,reduces estimated delay odds
+categorical__state_Sikkim,0.015172462340260788,1.0152881484877252,increases estimated delay odds
+numeric__current_cost_overrun_pct,-0.014611623578990526,0.9854946081573711,reduces estimated delay odds
+categorical__ministry_department_Department for Promotion of Industry & Internal Trade,-0.014267529435077256,0.9858337694292535,reduces estimated delay odds
+categorical__state_Goa,-0.012160763985198945,0.9879128792834101,reduces estimated delay odds
+categorical__sector_PETROLEUM,0.010651507935544405,1.0107084371941373,increases estimated delay odds
+categorical__sector_TELECOMMUNI CATIONS,0.009928136802012722,1.0099775842570822,increases estimated delay odds
+categorical__ministry_department_Ministry of Labour and Employment,-0.007781204380666063,0.9922489908210377,reduces estimated delay odds
+"categorical__state_Multi-States (Madhya Pradesh, Maharashtra)",-0.0033652358747856474,0.9966404201850235,reduces estimated delay odds
+"categorical__state_Multi-States (Andhra Pradesh, Odisha)",0.0024321088387886133,1.0024350688146653,increases estimated delay odds

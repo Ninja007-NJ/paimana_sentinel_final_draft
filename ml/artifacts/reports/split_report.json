@@ -1,0 +1,55 @@
+{
+  "project_overlap": {
+    "train_test": {
+      "left_projects": 1786,
+      "overlap_projects": 949,
+      "right_projects": 1313
+    },
+    "train_validation": {
+      "left_projects": 1786,
+      "overlap_projects": 685,
+      "right_projects": 774
+    },
+    "validation_test": {
+      "left_projects": 774,
+      "overlap_projects": 727,
+      "right_projects": 1313
+    }
+  },
+  "secondary_unseen_project_test": {
+    "end": "2026-01",
+    "negatives": 235,
+    "positive_rate_pct": 30.2671,
+    "positives": 102,
+    "rows": 337,
+    "start": "2025-12",
+    "unique_projects": 279
+  },
+  "test": {
+    "end": "2026-01",
+    "negatives": 1546,
+    "positive_rate_pct": 28.2599,
+    "positives": 609,
+    "rows": 2155,
+    "start": "2025-12",
+    "unique_projects": 1313
+  },
+  "train": {
+    "end": "2025-08",
+    "negatives": 5077,
+    "positive_rate_pct": 16.2902,
+    "positives": 988,
+    "rows": 6065,
+    "start": "2025-01",
+    "unique_projects": 1786
+  },
+  "validation": {
+    "end": "2025-11",
+    "negatives": 1812,
+    "positive_rate_pct": 15.6425,
+    "positives": 336,
+    "rows": 2148,
+    "start": "2025-09",
+    "unique_projects": 774
+  }
+}

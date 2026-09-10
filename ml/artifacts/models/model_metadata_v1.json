@@ -1,0 +1,56 @@
+{
+  "calibration": "none",
+  "configuration": {
+    "depth": 5,
+    "iterations": 500,
+    "l2_leaf_reg": 5,
+    "learning_rate": 0.05
+  },
+  "dataset_sha256": "98d13b9f77985a711f3eb51ff6b2641b407ab045e51bd440fe55aad60582e837",
+  "dataset_version": "paimana_dataset_v1.0",
+  "git_commit": null,
+  "model_type": "catboost",
+  "model_version": "delay_3m_v1",
+  "random_seed": 26103,
+  "selected_model": "CatBoost_1",
+  "selection_basis": "validation PR-AUC, then Brier; test untouched until selection",
+  "test_metrics": {
+    "accuracy": 0.7429234338747099,
+    "alerts_generated": 497,
+    "balanced_accuracy": 0.6551262116123605,
+    "brier": 0.1946374025979912,
+    "ece": 0.1580004486072721,
+    "f1": 0.49909584086799275,
+    "false_positive_rate": 0.1429495472186287,
+    "fn": 333,
+    "fp": 221,
+    "log_loss": 0.6286023105273261,
+    "pr_auc": 0.5526976957562444,
+    "precision": 0.5553319919517102,
+    "recall": 0.45320197044334976,
+    "roc_auc": 0.7918724522418148,
+    "specificity": 0.8570504527813713,
+    "threshold": 0.22999999999999998,
+    "tn": 1325,
+    "tp": 276
+  },
+  "test_period": [
+    "2025-12",
+    "2026-01"
+  ],
+  "thresholds": {
+    "BALANCED": 0.22999999999999998,
+    "CONSERVATIVE": 0.255,
+    "CRITICAL": 0.75,
+    "EARLY_WARNING": 0.19
+  },
+  "training_period": [
+    "2025-01",
+    "2025-08"
+  ],
+  "training_prevalence": 0.16290189612530914,
+  "validation_period": [
+    "2025-09",
+    "2025-11"
+  ]
+}
